@@ -36,14 +36,16 @@ And ..., please **choose a better terminal and font.**
 
 ## Main Keymaps  
 ### normal mode  
+```
 <space>e              nerdtreeToggle  
 <space>b              show all the buffer  
 <space>w              save  
 <space>q              :qa  
 <F6>                  auto run codes
 <F5>                  terminal 
+```
 
-Shift+H               jump to previous buffer
+Shift+H               jump to previous buffer  
 Shift+L               jump to next buffer
 
 ### insert mode  
@@ -60,7 +62,7 @@ jf                    change to normal mode
 + nocompatible
 
 ## Autocmds
-change cursor style when the mode is changed
+change cursor style when the mode is changed  
 
 ## Plugins
 + NerdTree      FileExplorer
@@ -73,8 +75,8 @@ change cursor style when the mode is changed
 + golang
 + rust 
 + typescript
-+ html/css
-In the ~/.vim/plugins/pluginConfig/coc.vim file, you can modify the settings to suit your specific LSP requirements.
++ html/css  
+In the ~/.vim/plugins/pluginConfig/coc.vim file, you can modify the settings to suit your specific LSP requirements.  
 
 in [Coc-Extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions) find the lsp you want
 
