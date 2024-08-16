@@ -43,13 +43,15 @@ And ..., please **choose a better terminal and font.**
 <space>q              :qa  
 <F6>                  auto run codes
 <F5>                  terminal 
-```
 
 Shift+H               jump to previous buffer  
 Shift+L               jump to next buffer
+```
 
 ### insert mode  
+```
 jf                    change to normal mode  
+```
 ### visual mode  
 <!-- nothing -->  
 
