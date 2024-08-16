@@ -9,30 +9,30 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 And ..., please **choose a better terminal and font.**
 
 ## Directory Structure
-.
-├── autoload
-│   └── plug.vim
-├── build.sh
-├── config
-│   ├── autocmds.vim
-│   ├── keymaps.vim
-│   └── options.vim
-├── plugged
-│   ├── ayu-vim
-│   │   ├── ...
-│   ├── coc.nvim
-│   │   ├── ...
-│   └── nerdtree
-│       ├── ...
-├── plugins
-│   ├── pluginConfig
-│   │   ├── ayu.vim
-│   │   └── coc.vim
-│   └── plugins.vim
-├── README.md
-├── snippets
-│   └── markdown.vim
-└── vimrc
+.  
+├── autoload  
+│   └── plug.vim  
+├── build.sh  
+├── config  
+│   ├── autocmds.vim  
+│   ├── keymaps.vim  
+│   └── options.vim  
+├── plugged  
+│   ├── ayu-vim  
+│   │   ├── ...  
+│   ├── coc.nvim  
+│   │   ├── ...  
+│   └── nerdtree  
+│       ├── ...  
+├── plugins   
+│   ├── pluginConfig   
+│   │   ├── ayu.vim   
+│   │   └── coc.vim   
+│   └── plugins.vim   
+├── README.md   
+├── snippets   
+│   └── markdown.vim   
+└── vimrc   
 
 ## Main Keymaps  
 ### normal mode  
