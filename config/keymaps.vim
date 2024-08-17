@@ -1,4 +1,6 @@
 vnoremap <silent> y y:call system("xclip -i -selection clipboard", @")<cr>
+vnoremap <silent> d d:call system("xclip -i -selection clipboard", @")<cr>
+
 nnoremap <silent> p :call setreg("@", system("xclip -o -selection clipboard"))<cr>p
 nnoremap <silent> yy yy:call system("xclip -i -selection clipboard", @")<cr>
 nnoremap <silent> dd dd:call system("xclip -i -selection clipboard", @")<cr>
@@ -7,8 +9,12 @@ vnoremap <silent> x x:call system("xclip -i -selection clipboard", @")<cr>
 
 
 nnoremap <f5> :terminal<cr>
-nnoremap <space>b :buffers<cr>:b<space>
 nnoremap <space>e :NERDTreeToggle<cr>
+nnoremap <space>f :FZF<cr>
+nnoremap <space>h :History<cr>
+nnoremap <space>b :Buffers<cr>
+nnoremap <space>t :BTags<cr>
+
 
 nnoremap <space>w :w<cr>
 nnoremap <space>q :qa<cr>
@@ -23,3 +29,8 @@ nnoremap <S-L> :bnext<CR>
 
 " -------------------- place holder --------------------
 inoremap <leader><leader> <Esc>/<++><CR>:nohlsearch<CR>c4l
+
+
+
+
+

@@ -70,6 +70,7 @@ change cursor style when the mode is changed
 + NerdTree      FileExplorer
 + Coc           Make your Vim/Neovim as smart as VS Code
 + Ayu           ColorScheme
++ FZF           Not only a File Finder
 
 
 ## Language Server Protocol
