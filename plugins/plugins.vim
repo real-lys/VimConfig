@@ -10,6 +10,12 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'ayu-theme/ayu-vim',
 
+Plug 'mhinz/vim-startify'
+
+Plug 'mg979/vim-visual-multi'
+
 call plug#end()
+
+
 
 

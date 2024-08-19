@@ -6,6 +6,7 @@ let g:coc_global_extensions = [
     \ 'coc-clangd',
     \ 'coc-go',
     \ 'coc-rust-analyzer',
+    \ 'coc-lua',
     \ ]
 
 
